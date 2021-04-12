@@ -1,0 +1,363 @@
+<html>
+<head><title>CSS grids</title></head>
+<style>
+.container
+{
+width:1200px;
+height:800px;
+display:grid;
+grid-template-rows:250px 250px 250px;
+grid-template-columns:500px 500px 500px;
+grid-row-gap:30px;
+grid-column-gap:20px;
+}
+
+.image1
+{
+	border: 1px solid black;
+	background-image: url('image.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 250px 250px;
+}
+
+.image2
+{
+	border: 1px solid black;
+	background-image: url('gents-hair-434x390.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 250px 250px;
+}
+.image3
+{
+	border: 1px solid black;
+	background-image: url('Hair1.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 250px 250px;
+}
+.image4
+{
+	border: 1px solid black;
+	background-image: url('male-cosmetologist-thinkstockstk20844rty-300x300.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 250px 250px;
+}
+.image5
+{
+	border: 1px solid black;
+	background-image: url('Men-cut-348x404.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 250px 250px;
+}
+.image6
+{
+	border: 1px solid black;
+	background-image: url('men-saloon2.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 250px 250px;
+}
+
+.image7
+{
+	border: 1px solid black;
+	background-image: url('Top-10-Beauticians-In-Pakistan-1.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 250px 250px;
+}
+.image8
+{
+	border: 1px solid black;
+	background-image: url('the-spa-at-the-trans.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 250px 250px;
+}
+.image9
+{
+	border: 1px solid black;
+	background-image: url('206816320.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 250px 250px;
+}
+.prdInf
+{
+	border: 1px solid black;
+	
+}
+
+.invtryName
+{
+	text-align: center;
+}
+.prdctName
+{
+	text-align: center;
+}
+.price
+{
+	text-align: center;
+}
+.Bestbfr
+{
+ text-align:center;
+ }
+.item1
+{
+	background-color:greenyellow;
+	display: grid;
+	grid-template-columns: 100% auto;
+	overflow:hidden;
+}
+
+.item2
+{
+	display: grid;
+	grid-template-columns: 100% auto;
+	overflow:hidden;
+	background-color:violet;
+}
+.item3
+{
+	display: grid;
+	grid-template-columns: 100% auto;
+	overflow:hidden;
+	padding:0px;
+	background-color:gold;
+}
+.item4
+{
+	display: grid;
+	grid-template-columns: 100% auto;
+	overflow:hidden;
+	background-color:pink;
+}
+.item5
+{
+	background-color:turquoise;
+	display: grid;
+	grid-template-columns: 100% auto;
+	overflow:hidden;
+}
+.item6
+{
+	display: grid;
+	grid-template-columns: 100% auto;
+	overflow:hidden;
+	background-color:green;
+}
+.item7
+{
+	display: grid;
+	grid-template-columns: 100% auto;
+	overflow:hidden;
+	background-color:lightgrey;
+}
+.item8
+{
+	display: grid;
+	grid-template-columns: 100% auto;
+	overflow:hidden;
+	background-color:steelblue;
+}
+.item9
+{
+	display: grid;
+	grid-template-columns: 100% auto;
+	overflow:hidden;
+	background-color:aliceblue;
+}
+.item1:hover
+{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	background-color:red;
+	overflow: hidden;
+	transition: 2ms;
+}
+.item2:hover
+{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	background-color:violet;
+	overflow: hidden;
+	transition: 2ms;
+}
+.item3:hover
+{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	background-color:darkturquoise;
+	overflow: hidden;
+	transition: 2ms;
+}
+.item4:hover
+{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	background-color:teal;
+	overflow: hidden;
+	transition: 2ms;
+}
+.item5:hover
+{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	background-color:darkmagenta;
+	overflow: hidden;
+	transition: 2ms;
+}
+.item6:hover
+{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	background-color:hotpink;
+	overflow: hidden;
+	transition: 2ms;
+}
+.item7:hover
+{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	background-color:sandybrown;
+	overflow: hidden;
+	transition: 2ms;
+}
+.item8:hover
+{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	background-color:dimgray;
+	overflow: hidden;
+	transition: 2ms;
+}
+.item9:hover
+{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	background-color:chocolate;
+	overflow: hidden;
+	transition: 2ms;
+}
+h1
+{
+	width: 100%;
+	height: 28px;
+}
+a
+{
+float:left;
+text-decoration:none;
+}
+h1
+{
+background-color:aliceblue;
+text-align:center;
+border:1px solid black;
+color:red;
+width:25%;
+padding:10px;
+line-height:30px;
+}
+button
+{margin-bottom:20px;}
+h1:hover
+{
+background-color:#48d1cc;
+}
+button:hover
+{
+background-color:cyan;
+}
+
+</style>
+
+<body>
+<center><h1>EMPLOYEE PANNEL</h1></center>
+<button><a href="index.html">HOME</a></button>
+	<div class="container">
+		<div class="item1">
+
+			<div class="image1"></div>
+			<div class="prdInf">
+				<p class="invtryName">Employee Name:ALEXI TEXAS</p>
+				<p class="prdctName">Designation:SPA Specialist</p>
+				<p class="price">Experience:5 years</p>
+			</div>
+
+		</div>
+		<div class="item2">
+			<div class="image2"></div>
+			<div class="prdInf">
+				<p class="invtryName">Employee Name:JOHNNY</p>
+				<p class="prdctName">Designation:Hair cut specialist</p>
+				<p class="price">Experience:3 years</p>
+			</div>
+		</div>
+		<div class="item3">
+			<div class="image3"></div>
+			<div class="prdInf">
+				<p class="invtryName">Employee Name:DAVID</p>
+				<p class="prdctName">Designation:BRIDAL specialist</p>
+				<p class="price">Experience:2 years</p>
+			</div>
+		</div>
+		<div class="item4">
+			<div class="image4"></div>
+			<div class="prdInf">
+				<p class="invtryName">Employee Name:VICKY</p>
+				<p class="prdctName">Designation:LAZER Trainer</p>
+				<p class="price">Experience:8+ yrs</p>
+				
+			</div>
+		</div>
+		<div class="item5">
+			<div class="image5"></div>
+			<div class="prdInf">
+				<p class="invtryName">Employee Name:ANTONY</p>
+				<p class="prdctName">Designation:STATING Trainer</p>
+				<p class="price">Experience:1+ yr</p>
+			</div>
+		</div>
+		<div class="item6">
+			<div class="image6"></div>
+			<div class="prdInf">
+				<p class="invtryName">Employee Name:WILLEY</p>
+				<p class="prdctName">Designation:MAKE UP</p>
+				<p class="price">Experience:4+ yrs</p>
+			</div>
+		</div>
+		<div class="item7">
+			<div class="image7"></div>
+			<div class="prdInf">
+				<p class="invtryName">Employee Name:SARWANA</p>
+				<p class="prdctName">Designation:PROFESSIONAL</p>
+				<p class="price">Experience:10+ yrs</p>
+			</div>
+			</div>
+			<div class="item8">
+			<div class="image8"></div>
+			<div class="prdInf">
+				<p class="invtryName">Employee Name:JESSY</p>
+				<p class="prdctName">Designation:MASSAGE Trainer</p>
+				<p class="price">Experience:3+ yrs</p>
+
+			</div>
+			</div>
+			<div class="item9">
+			<div class="image9"></div>
+			<div class="prdInf">
+				<p class="invtryName">Employee Name:RIA</p>
+				<p class="prdctName">Designation:FACE MASSAGE</p>
+				<p class="price">Cost:Experience:3+ yrs</p>
+			</div>
+			</div>
+	</div>
+	</body>
+	</html>

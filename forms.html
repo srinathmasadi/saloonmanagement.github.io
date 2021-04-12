@@ -1,0 +1,98 @@
+<html>
+<head>
+<title>Forms</title>
+<style>
+fieldset{background:url("mizu1.jpg");
+border-image-repeat: no-repeat; }
+legend{color:red;font-size:30px;}
+ a
+{
+text-decoration:none;
+color:black;
+}
+</style>
+</head>
+<body>
+	<button h2><a href="index.html">HOME</a></h2></button>
+      <form action=""method="post" align="center">
+      <fieldset>
+      <legend>
+      GENERATE BILL
+      </legend>
+	     <table border=0 align="center">
+	     	
+		<tr>
+		<td>Name:</td>
+        <td>     <input type="text"name="Firstname"value=""><td>
+		</tr>
+             
+	<tr>
+	     <td>Gender:</td>
+	     <td><input type="radio"name="gender"value="male">Male
+	      <input type="radio"name="gender"value="female">female</td>
+	</tr> <td>Select the Choice:</td>
+		 <td> <select name="SERVICE">
+		 	<option value="Choice">Choice</option>
+		  <option value="SPA">SPA</option>
+		  <option value="MASSAGE">MASSAGE</option>
+		  <option value="HAIRCUT">HAIRCUT</option>
+		  <option value="FACIAL ">FACIAL</option>
+		  <option value="DYE">DYE</option>
+		  </select></td>
+	<tr> 
+		 <td>Enter Password:</td>
+	      <td><input type="password"name="pwd"></td>
+	</tr>
+	<tr>  
+		 <td> Select the Services:</td>
+		  <td><input type="checkbox"name="Personal">Personal
+		  <input type="checkbox"name="Purchased">Purchased</td>
+	</tr>
+	<tr>
+		 
+	</tr>
+	<tr>	  
+		  <td>Enter your email:</td>
+		  <td> <input type="email"name="email"></td>
+	</tr>
+    <tr>	
+		   <td>Telephone:</td>
+		   <td><input type="tel"name="numbers"></td>
+	</tr>
+    <tr>	
+		   <td>Enter date:</td>
+		    <td><input type="date"name="date" value="2019-04-22"></td>
+	</tr>
+	<tr>
+			<td>Time:</td>
+			<td><input type="time"name="timezone" value="10:25:56"></td>
+	</tr>
+    <tr>
+		   <td>Select the Payment Mode:</td>
+		 <td> <select name="SERVICE">
+		 	<option value="card">Card</option>
+		 	<option value="Choice">Cash</option>
+		 </select>
+		</td>
+	</tr>
+	<!-- <tr>
+		  <td> Enter URL:</td>
+		   <td><input type="url"name="url"></td>
+	</tr>	 -->   
+	<tr>
+			<td>   </td>
+			<td><input type="reset"name="reset"<br>&nbsp
+	      <input type="submit"name="submit" onclick="myFunction()"></td>
+	</tr>
+	</form>
+</table>	
+      </fieldset>
+      
+      <script>
+function myFunction()
+{
+alert("Thanks for visiting, your bill has generated");
+}
+</script>
+</body>
+</html>
